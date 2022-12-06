@@ -2,6 +2,7 @@ const express = require('express')
 const todoRoutes = require('./routes/todoRoutes')
 const connectDB = require('./config/db')
 const cors = require('cors')
+
 const port = process.env.PORT || 3000
 connectDB()
 
